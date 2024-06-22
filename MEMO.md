@@ -3,6 +3,7 @@
 ```sh
 $ terraform init
 ```
+![terraform init](./images/terraform%20init.png)
 ### コードの整形
 ```sh
 $ terraform fmt
@@ -13,7 +14,7 @@ $ terraform validate
 ```
 ### ドライラン
 ```sh
-$ terraform play
+$ terraform plan
 ```
 ### 実効
 ```sh
