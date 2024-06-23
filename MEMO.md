@@ -1,9 +1,9 @@
 # terraformコマンドのメモ書き
-### m設定ファイルの初期化
+### 設定ファイルの初期化
 ```sh
 $ terraform init
 ```
-![terraform init](./images/terraform%20init.png)
+![terraform init](./images/terraform_init.png)
 ### コードの整形
 ```sh
 $ terraform fmt
@@ -12,6 +12,8 @@ $ terraform fmt
 ```sh
 $ terraform validate
 ```
+問題がない場合  
+![terraform validate success](./images/terraform_validate_success.png)
 ### ドライラン
 ```sh
 $ terraform plan
